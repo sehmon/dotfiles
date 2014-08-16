@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/sehmon/Development/Sunshine/.idea/compiler.xml" timestamp="1407727552000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/copyright/profiles_settings.xml" timestamp="1407727542000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/encodings.xml" timestamp="1407727542000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/gradle.xml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/libraries/appcompat_v7_19_1_0.xml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/libraries/support_v4_19_1_0.xml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/misc.xml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/modules.xml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/scopes/scope_settings.xml" timestamp="1407727542000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/vcs.xml" timestamp="1407727542000" />
+    <file path="/home/sehmon/Development/Sunshine/.idea/workspace.xml" timestamp="1407861211000" />
+    <file path="/home/sehmon/Development/Sunshine/Sunshine.iml" timestamp="1407727753000" />
+    <file path="/home/sehmon/Development/Sunshine/app/app.iml" timestamp="1407727792000" />
+  </project-files>
+</conversion>
+

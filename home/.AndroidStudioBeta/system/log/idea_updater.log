@@ -1,0 +1,229 @@
+10 Aug 2014 22:53:29 INFO  Runner.initLogger - --- Updater started ---
+10 Aug 2014 22:53:29 INFO  Runner.main - destFolder: /usr/share/android-studio/data
+10 Aug 2014 22:53:30 INFO  Runner$2.execute - installing patch to the /usr/share/android-studio/data
+10 Aug 2014 22:53:30 INFO  Utils.createTempFile - created temp file: /tmp/idea.updater.8368604828525192307.tmp
+10 Aug 2014 22:53:30 INFO  Runner.doInstallImpl - Extracting patch file...
+10 Aug 2014 22:53:30 INFO  Utils.getEntryInputStream - entryPath: patch-file.zip
+10 Aug 2014 22:53:30 INFO  Utils.getEntryInputStream - entryPath: .patch-info
+10 Aug 2014 22:53:34 INFO  Patch.validate - Validating installation...
+10 Aug 2014 22:53:40 INFO  Utils.createTempDir - deleted tmp dir: /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp
+10 Aug 2014 22:53:40 INFO  Utils.createTempDir - created tmp dir: /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/DetailsFragment.java.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/DetailsFragment.java.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/GcmEndpoints/template.xml to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/GcmEndpoints/template.xml
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/lib/openapi.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/openapi.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/manifest-merger.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/manifest-merger.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/gradle-projects/AndroidWearModule/recipe.xml.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/AndroidWearModule/recipe.xml.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/Utils.java.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/Utils.java.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/gradle-import.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/gradle-import.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/junit/lib/idea-junit.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/junit/lib/idea-junit.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root/build.gradle.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root/build.gradle.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/res/values/strings.xml.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/res/values/strings.xml.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/IntelliLang/lib/IntelliLang.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/IntelliLang/lib/IntelliLang.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/resources_en.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/resources_en.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/terminal/lib/terminal.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/terminal/lib/terminal.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/build.txt to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/build.txt
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/google-cloud-tools/lib/google-cloud-tools.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/google-cloud-tools.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/android-common.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/android-common.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/tasks/lib/tasks-core.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/tasks-core.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/BlankWearActivity/recipe.xml.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/recipe.xml.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/recipe.xml.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/recipe.xml.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/HelloWorld/template.xml to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloWorld/template.xml
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/hg4idea/lib/hg4idea.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/hg4idea/lib/hg4idea.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/android.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/android.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/sdk-common.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/sdk-common.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/Groovy/lib/Groovy.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/Groovy/lib/Groovy.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/PlayerActivity.java.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/PlayerActivity.java.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/template.xml to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/template.xml
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/HelloEndpoints/template.xml to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloEndpoints/template.xml
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/maven/lib/maven.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/maven/lib/maven.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/git4idea/lib/git4idea.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/git4idea/lib/git4idea.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/tasks/lib/jira.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/jira.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/svn4idea/lib/svn4idea.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/svn4idea/lib/svn4idea.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/lib/resources.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/resources.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/testng/lib/testng-plugin.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/testng/lib/testng-plugin.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/tasks/lib/tasks-api.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/tasks-api.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/lib/idea.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/idea.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/BlankWearActivity/root/src/app_package/BlankActivity.java.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/root/src/app_package/BlankActivity.java.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/AndroidManifest.xml.ftl to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/AndroidManifest.xml.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/cvsIntegration/lib/cvsIntegration.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/cvsIntegration/lib/cvsIntegration.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/github/lib/github.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/github/lib/github.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/sdklib.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/sdklib.jar
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /usr/share/android-studio/data/plugins/android/lib/lint-checks.jar to /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/lint-checks.jar
+10 Aug 2014 22:53:40 INFO  Utils.getEntryInputStream - entryPath: plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/VideoDetailsFragment.java.ftl
+10 Aug 2014 22:53:40 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.869385664431363224.tmp to /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/GcmEndpoints/template.xml
+10 Aug 2014 22:53:41 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.9196765950612842470.tmp to /usr/share/android-studio/data/lib/openapi.jar
+10 Aug 2014 22:53:41 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.7717124614124299969.tmp to /usr/share/android-studio/data/plugins/android/lib/manifest-merger.jar
+10 Aug 2014 22:53:41 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.2690216436464865865.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/gradle-projects/AndroidWearModule/recipe.xml.ftl
+10 Aug 2014 22:53:41 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5900841796285571327.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/Utils.java.ftl
+10 Aug 2014 22:53:41 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8914663958118272203.tmp to /usr/share/android-studio/data/plugins/android/lib/gradle-import.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.7102296872955075475.tmp to /usr/share/android-studio/data/plugins/junit/lib/idea-junit.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.6640389829769864330.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root/build.gradle.ftl
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5742407471954769836.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/res/values/strings.xml.ftl
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5984845947141603505.tmp to /usr/share/android-studio/data/plugins/IntelliLang/lib/IntelliLang.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.7761286767731213473.tmp to /usr/share/android-studio/data/plugins/android/lib/resources_en.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.7097425761467953730.tmp to /usr/share/android-studio/data/plugins/terminal/lib/terminal.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.7496874520665887125.tmp to /usr/share/android-studio/data/build.txt
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.679934466025547558.tmp to /usr/share/android-studio/data/plugins/google-cloud-tools/lib/google-cloud-tools.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.6877989236441430422.tmp to /usr/share/android-studio/data/plugins/android/lib/android-common.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.2304479098654210769.tmp to /usr/share/android-studio/data/plugins/tasks/lib/tasks-core.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.1865333625493543700.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/BlankWearActivity/recipe.xml.ftl
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.3460503694261234153.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/recipe.xml.ftl
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.4668904893735367654.tmp to /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/HelloWorld/template.xml
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.9091699160786922069.tmp to /usr/share/android-studio/data/plugins/hg4idea/lib/hg4idea.jar
+10 Aug 2014 22:53:42 INFO  Utils.getEntryInputStream - entryPath: plugins/android/lib/android.jar/com/android/tools/idea/gradle/project/PostProjectSetupTasksExecutor$InstallBuildToolsHyperlink.class
+10 Aug 2014 22:53:42 INFO  Utils.getEntryInputStream - entryPath: plugins/android/lib/android.jar/com/android/tools/idea/gradle/project/AndroidGradleProjectData$1.class
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5202695104134044128.tmp to /usr/share/android-studio/data/plugins/android/lib/android.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.2795295512631216787.tmp to /usr/share/android-studio/data/plugins/android/lib/sdk-common.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.572401354417453191.tmp to /usr/share/android-studio/data/plugins/Groovy/lib/Groovy.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.4802820389515394315.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/PlayerActivity.java.ftl
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.1189987538600282555.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/template.xml
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.3686225445101319010.tmp to /usr/share/android-studio/data/plugins/google-cloud-tools/lib/templates/HelloEndpoints/template.xml
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5683342696454410790.tmp to /usr/share/android-studio/data/plugins/maven/lib/maven.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5604112836286031850.tmp to /usr/share/android-studio/data/plugins/git4idea/lib/git4idea.jar
+10 Aug 2014 22:53:42 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8120690453746372679.tmp to /usr/share/android-studio/data/plugins/tasks/lib/jira.jar
+10 Aug 2014 22:53:43 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8115788290080219628.tmp to /usr/share/android-studio/data/plugins/svn4idea/lib/svn4idea.jar
+10 Aug 2014 22:53:43 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.6537709243332635106.tmp to /usr/share/android-studio/data/lib/resources.jar
+10 Aug 2014 22:53:43 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5293044823625966427.tmp to /usr/share/android-studio/data/plugins/testng/lib/testng-plugin.jar
+10 Aug 2014 22:53:43 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8217207931230153483.tmp to /usr/share/android-studio/data/plugins/tasks/lib/tasks-api.jar
+10 Aug 2014 22:53:45 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.6980402451948917670.tmp to /usr/share/android-studio/data/lib/idea.jar
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8150794119242719986.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/BlankWearActivity/root/src/app_package/BlankActivity.java.ftl
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.8089994354514303293.tmp to /usr/share/android-studio/data/plugins/android/lib/templates/activities/AndroidTVActivity/root/AndroidManifest.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.5566147189319753673.tmp to /usr/share/android-studio/data/plugins/cvsIntegration/lib/cvsIntegration.jar
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.74445367548548718.tmp to /usr/share/android-studio/data/plugins/github/lib/github.jar
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.279996104959168279.tmp to /usr/share/android-studio/data/plugins/android/lib/sdklib.jar
+10 Aug 2014 22:53:46 INFO  Utils.copy - from /tmp/idea.updater.8368604828525192307.tmp/temp.6812779534458523529.tmp to /usr/share/android-studio/data/plugins/android/lib/lint-checks.jar
+10 Aug 2014 22:53:46 INFO  Runner.cleanup - Cleaning up...
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.1865333625493543700.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.4927087591300140261.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8120690453746372679.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5604112836286031850.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5984845947141603505.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.869385664431363224.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8914663958118272203.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.2795295512631216787.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7717124614124299969.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5742407471954769836.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7097425761467953730.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.572401354417453191.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.9091699160786922069.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5683342696454410790.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7496874520665887125.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5293044823625966427.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.4802820389515394315.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8217207931230153483.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5900841796285571327.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.6877989236441430422.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.6537709243332635106.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7102296872955075475.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8089994354514303293.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/build.txt
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/openapi.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/idea.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib/resources.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/testng/lib/testng-plugin.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/testng/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/testng
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/github/lib/github.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/github/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/github
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/Groovy/lib/Groovy.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/Groovy/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/Groovy
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/resources_en.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/manifest-merger.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root/build.gradle.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/NewAndroidModule
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/AndroidWearModule/recipe.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects/AndroidWearModule
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/gradle-projects
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/root/src/app_package/BlankActivity.java.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/root/src/app_package
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/root/src
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/root
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity/recipe.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/BlankWearActivity
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/AndroidManifest.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/DetailsFragment.java.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/Utils.java.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package/PlayerActivity.java.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src/app_package
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/src
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/res/values/strings.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/res/values
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root/res
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/root
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/template.xml
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity/recipe.xml.ftl
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities/AndroidTVActivity
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates/activities
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/templates
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/sdk-common.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/gradle-import.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/lint-checks.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/android-common.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/android.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib/sdklib.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/android
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/cvsIntegration/lib/cvsIntegration.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/cvsIntegration/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/cvsIntegration
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/IntelliLang/lib/IntelliLang.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/IntelliLang/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/IntelliLang
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/tasks-core.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/tasks-api.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib/jira.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/tasks
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/maven/lib/maven.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/maven/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/maven
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/hg4idea/lib/hg4idea.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/hg4idea/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/hg4idea
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/junit/lib/idea-junit.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/junit/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/junit
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/svn4idea/lib/svn4idea.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/svn4idea/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/svn4idea
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/terminal/lib/terminal.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/terminal/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/terminal
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/git4idea/lib/git4idea.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/git4idea/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/git4idea
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloWorld/template.xml
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloWorld
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloEndpoints/template.xml
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/HelloEndpoints
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/GcmEndpoints/template.xml
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates/GcmEndpoints
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/templates
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib/google-cloud-tools.jar
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools/lib
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins/google-cloud-tools
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp/plugins
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7249327198614740239.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.279996104959168279.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5566147189319753673.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.74445367548548718.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8115788290080219628.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.6640389829769864330.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.4668904893735367654.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.6980402451948917670.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.2690216436464865865.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.1189987538600282555.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.679934466025547558.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.3460503694261234153.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.6812779534458523529.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.3686225445101319010.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.5202695104134044128.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.2304479098654210769.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.7761286767731213473.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.8150794119242719986.tmp
+10 Aug 2014 22:53:46 INFO  Utils.delete - deleted file /tmp/idea.updater.8368604828525192307.tmp/temp.9196765950612842470.tmp
+10 Aug 2014 22:53:46 INFO  Utils.cleanup - deleted file /tmp/idea.updater.8368604828525192307.tmp
