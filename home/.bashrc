@@ -115,3 +115,7 @@ fi
 
 # stops the wifi adapter from shutting off
 rfkill unblock all
+
+# starts homeshick
+source /home/sehmon/.homesick/repos/homeshick/homeshick.sh
+

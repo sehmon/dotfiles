@@ -2,13 +2,13 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/vundle'
 
 " This sets the leader to space, which will make other commands easier
 let mapleader = "\<Space>"
@@ -47,3 +47,9 @@ set scrolloff=5
 
 " Filetype indentation"
 filetype plugin indent on
+
+"Smart Indenting on
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab

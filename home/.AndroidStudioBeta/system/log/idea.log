@@ -2300,3 +2300,619 @@ com.android.ddmlib.AdbCommandRejectedException: device not found
 2014-08-12 12:33:33,701 [66935226]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2014-08-12 12:33:33,765 [66935290]   WARN - netty.channel.nio.NioEventLoop - Selector.select() returned prematurely 512 times in a row; rebuilding selector. 
 2014-08-12 12:33:33,765 [66935290]   INFO - netty.channel.nio.NioEventLoop - Migrated 0 channel(s) to the new Selector. 
+2014-08-16 16:15:27,290 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-08-16 16:15:27,394 [    104]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-135.1267975, 08 Jul 2014 00:00) 
+2014-08-16 16:15:27,395 [    105]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-32-generic, amd64) 
+2014-08-16 16:15:27,395 [    105]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-08-16 16:15:27,395 [    105]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-08-16 16:15:27,433 [    143]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Didea.project.structure.max.errors.to.show=0 -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+HeapDumpOnOutOfMemoryError -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/share/android-studio/data/bin/studio64.vmoptions -Xbootclasspath/a:/usr/share/android-studio/data/bin/../lib/boot.jar -Didea.paths.selector=AndroidStudioBeta -Didea.platform.prefix=AndroidStudio -Djb.restart.code=88 
+2014-08-16 16:15:27,482 [    192]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 49 ms 
+2014-08-16 16:15:27,747 [    457]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 231 ms 
+2014-08-16 16:15:27,747 [    457]   INFO -        #com.intellij.idea.Main - 2014-08-16 16:15:18 [Patch] Original patch does not exist: /tmp/jetbrains.patch.jar.androidstudio
+ 
+2014-08-16 16:15:28,615 [   1325]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-08-16 16:15:30,957 [   3667]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-08-16 16:15:32,948 [   5658]   INFO - llij.ide.plugins.PluginManager - 22 plugins initialized in 3469 ms 
+2014-08-16 16:15:32,949 [   5659]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.0), CVS Integration (11), Commander (1.0.0), Copyright (8.1), Git Integration (8.1), GitHub, Google Cloud Tools For Android Studio (0.2.8), Gradle, Groovy (9.0), I18n for Java, IDEA CORE, IntelliLang (8.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), hg4idea (10.0) 
+2014-08-16 16:15:32,949 [   5659]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Genymotion (1.0.3) 
+2014-08-16 16:15:40,881 [  13591]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 759 ms 
+2014-08-16 16:15:41,061 [  13771]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=748027904 
+2014-08-16 16:15:41,410 [  14120]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 483 ms 
+2014-08-16 16:15:41,524 [  14234]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/share/android-studio/data/bin/fsnotifier64 
+2014-08-16 16:15:41,571 [  14281]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-08-16 16:15:41,572 [  14282]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 645 ms 
+2014-08-16 16:15:41,584 [  14294]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 666 ms 
+2014-08-16 16:15:42,080 [  14790]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 1197 ms 
+2014-08-16 16:15:42,207 [  14917]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 98 ms 
+2014-08-16 16:15:43,257 [  15967]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 1048 ms 
+2014-08-16 16:15:43,294 [  16004]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl initialized in 25 ms 
+2014-08-16 16:15:43,367 [  16077]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 70 ms 
+2014-08-16 16:15:43,494 [  16204]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 125 ms 
+2014-08-16 16:15:43,516 [  16226]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 20 ms 
+2014-08-16 16:15:43,557 [  16267]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.UISettings initialized in 30 ms 
+2014-08-16 16:15:44,004 [  16714]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 477 ms 
+2014-08-16 16:15:44,059 [  16769]   INFO - ij.components.ComponentManager - com.intellij.diagnostic.PerformanceWatcher initialized in 35 ms 
+2014-08-16 16:15:44,087 [  16797]   INFO - ij.components.ComponentManager - com.intellij.notification.impl.NotificationsConfigurationImpl initialized in 25 ms 
+2014-08-16 16:15:44,111 [  16821]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.UsageStatisticsPersistenceComponent initialized in 16 ms 
+2014-08-16 16:15:44,129 [  16839]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.ApplicationStatisticsPersistenceComponent initialized in 15 ms 
+2014-08-16 16:15:44,236 [  16946]   INFO - ij.components.ComponentManager - com.intellij.util.net.HttpConfigurable initialized in 92 ms 
+2014-08-16 16:15:44,974 [  17684]   INFO - ij.components.ComponentManager - com.intellij.util.net.ssl.CertificateManager initialized in 737 ms 
+2014-08-16 16:15:44,995 [  17705]   INFO - ij.components.ComponentManager - com.intellij.ide.SystemHealthMonitor initialized in 19 ms 
+2014-08-16 16:15:44,997 [  17707]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-08-16 16:15:45,101 [  17811]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 101 ms 
+2014-08-16 16:15:46,138 [  18848]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 1139 ms 
+2014-08-16 16:15:46,138 [  18848]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 1139 ms 
+2014-08-16 16:15:46,177 [  18887]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.WindowManagerImpl initialized in 33 ms 
+2014-08-16 16:15:46,184 [  18894]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 40 ms 
+2014-08-16 16:15:46,259 [  18969]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 59 ms 
+2014-08-16 16:15:46,285 [  18995]   INFO - ij.components.ComponentManager - com.intellij.ide.GeneralSettings initialized in 20 ms 
+2014-08-16 16:15:46,287 [  18997]   INFO - ij.components.ComponentManager - com.intellij.ide.SaveAndSyncHandlerImpl initialized in 24 ms 
+2014-08-16 16:15:46,339 [  19049]   INFO - ij.components.ComponentManager - com.intellij.openapi.updateSettings.impl.UpdateCheckerComponent initialized in 43 ms 
+2014-08-16 16:15:46,447 [  19157]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.SerializationManagerImpl initialized in 97 ms 
+2014-08-16 16:15:49,565 [  22275]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 3215 ms 
+2014-08-16 16:15:50,367 [  23077]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 799 ms 
+2014-08-16 16:15:50,401 [  23111]   INFO - ij.components.ComponentManager - com.intellij.tools.ToolManager initialized in 32 ms 
+2014-08-16 16:15:50,477 [  23187]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.libraries.LibraryKindLoader initialized in 73 ms 
+2014-08-16 16:15:50,497 [  23207]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-08-16 16:15:50,508 [  23218]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-08-16 16:15:50,514 [  23224]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.ex.QuickListsManager initialized in 14 ms 
+2014-08-16 16:15:50,570 [  23280]   INFO - ij.components.ComponentManager - com.intellij.compiler.impl.TranslatingCompilerFilesMonitor initialized in 48 ms 
+2014-08-16 16:15:50,765 [  23475]   INFO - ij.components.ComponentManager - com.intellij.compiler.server.BuildManager initialized in 193 ms 
+2014-08-16 16:15:50,811 [  23521]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 44 ms 
+2014-08-16 16:15:50,898 [  23608]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 84 ms 
+2014-08-16 16:15:50,929 [  23639]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsDirtyScopeVfsListener initialized in 28 ms 
+2014-08-16 16:15:50,953 [  23663]   INFO - ij.components.ComponentManager - com.intellij.remoteServer.impl.configuration.deployment.DeployToServerConfigurationTypesRegistrar initialized in 20 ms 
+2014-08-16 16:15:51,079 [  23789]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 124 ms 
+2014-08-16 16:15:51,107 [  23817]   INFO - ij.components.ComponentManager - com.siyeh.ig.InspectionGadgetsPlugin initialized in 23 ms 
+2014-08-16 16:15:51,213 [  23923]   INFO - ij.components.ComponentManager - com.intellij.util.xml.impl.JavaDomApplicationComponent initialized in 104 ms 
+2014-08-16 16:15:53,735 [  26445]   INFO - ij.components.ComponentManager - com.android.tools.idea.AndroidInitialConfigurator initialized in 2520 ms 
+2014-08-16 16:15:53,837 [  26547]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.utils.MavenEnvironmentRegistrar initialized in 54 ms 
+2014-08-16 16:15:54,702 [  27412]   INFO - ij.components.ComponentManager - org.jetbrains.android.AndroidPlugin initialized in 862 ms 
+2014-08-16 16:15:54,768 [  27478]   INFO - ij.components.ComponentManager - com.android.tools.idea.stats.StudioBuildStatsPersistenceComponent initialized in 64 ms 
+2014-08-16 16:15:54,771 [  27481]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-08-16 16:15:54,776 [  27486]   INFO - pl.stores.ApplicationStoreImpl - 84 application components initialized in 20865 ms 
+2014-08-16 16:15:54,831 [  27541]   INFO - .intellij.idea.IdeaApplication - App initialization took 33547 ms 
+2014-08-16 16:15:55,572 [  28282]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-08-16 16:16:01,014 [  33724]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 61 ms 
+2014-08-16 16:16:01,053 [  33763]   INFO - ij.components.ComponentManager - com.intellij.notification.EventLog$ProjectTracker initialized in 38 ms 
+2014-08-16 16:16:01,131 [  33841]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 75 ms 
+2014-08-16 16:16:01,188 [  33898]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.DirectoryIndexImpl initialized in 56 ms 
+2014-08-16 16:16:01,189 [  33899]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 57 ms 
+2014-08-16 16:16:01,228 [  33938]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ProjectRootManagerComponent initialized in 30 ms 
+2014-08-16 16:16:01,276 [  33986]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 85 ms 
+2014-08-16 16:16:01,351 [  34061]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 160 ms 
+2014-08-16 16:16:01,355 [  34065]   INFO - ij.components.ComponentManager - com.intellij.ui.EditorNotifications initialized in 165 ms 
+2014-08-16 16:16:01,380 [  34090]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 24 ms 
+2014-08-16 16:16:01,426 [  34136]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 71 ms 
+2014-08-16 16:16:01,476 [  34186]   INFO - ij.components.ComponentManager - com.intellij.ide.bookmarks.BookmarkManager initialized in 39 ms 
+2014-08-16 16:16:01,492 [  34202]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 16 ms 
+2014-08-16 16:16:01,530 [  34240]   INFO - ij.components.ComponentManager - com.intellij.openapi.module.impl.ModuleManagerComponent initialized in 33 ms 
+2014-08-16 16:16:01,756 [  34466]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 217 ms 
+2014-08-16 16:16:01,894 [  34604]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 67 ms 
+2014-08-16 16:16:01,958 [  34668]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsChangeDetailsManager initialized in 40 ms 
+2014-08-16 16:16:02,206 [  34916]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 294 ms 
+2014-08-16 16:16:02,316 [  35026]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 421 ms 
+2014-08-16 16:16:02,318 [  35028]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsDirtyScopeManagerImpl initialized in 424 ms 
+2014-08-16 16:16:02,343 [  35053]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 587 ms 
+2014-08-16 16:16:02,401 [  35111]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 57 ms 
+2014-08-16 16:16:02,425 [  35135]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexProjectHandler initialized in 20 ms 
+2014-08-16 16:16:02,517 [  35227]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 91 ms 
+2014-08-16 16:16:02,552 [  35262]   INFO - ij.components.ComponentManager - com.intellij.facet.impl.pointers.FacetPointersManagerImpl initialized in 30 ms 
+2014-08-16 16:16:02,580 [  35290]   INFO - ij.components.ComponentManager - com.intellij.ide.favoritesTreeView.FavoritesManager initialized in 17 ms 
+2014-08-16 16:16:02,632 [  35342]   INFO - ij.components.ComponentManager - com.intellij.packaging.impl.artifacts.ArtifactManagerImpl initialized in 45 ms 
+2014-08-16 16:16:02,704 [  35414]   INFO - ij.components.ComponentManager - com.intellij.compiler.CompilerConfigurationImpl initialized in 72 ms 
+2014-08-16 16:16:03,343 [  36053]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-16 16:16:03,483 [  36193]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-16 16:16:03,549 [  36259]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 842 ms 
+2014-08-16 16:16:03,610 [  36320]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 37 ms 
+2014-08-16 16:16:03,626 [  36336]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelveChangesManager initialized in 12 ms 
+2014-08-16 16:16:03,654 [  36364]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 27 ms 
+2014-08-16 16:16:03,692 [  36402]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.committed.CommittedChangesCache initialized in 37 ms 
+2014-08-16 16:16:03,721 [  36431]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.updater.SendStatisticsProjectComponent initialized in 16 ms 
+2014-08-16 16:16:03,753 [  36463]   INFO - ij.components.ComponentManager - com.intellij.framework.detection.impl.FrameworkDetectionManager initialized in 30 ms 
+2014-08-16 16:16:03,925 [  36635]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 169 ms 
+2014-08-16 16:16:03,967 [  36677]   INFO - ij.components.ComponentManager - com.intellij.javaee.PsiExternalResourceNotifier initialized in 39 ms 
+2014-08-16 16:16:04,009 [  36719]   INFO - ij.components.ComponentManager - com.intellij.debugger.impl.DebuggerManagerImpl initialized in 28 ms 
+2014-08-16 16:16:04,011 [  36721]   INFO - ij.components.ComponentManager - com.intellij.debugger.ui.DebuggerPanelsManager initialized in 41 ms 
+2014-08-16 16:16:04,091 [  36801]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.PostHighlightingPassFactory initialized in 69 ms 
+2014-08-16 16:16:04,206 [  36916]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-08-16 16:16:04,303 [  37013]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 210 ms 
+2014-08-16 16:16:04,419 [  37129]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 116 ms 
+2014-08-16 16:16:04,440 [  37150]   INFO - ij.components.ComponentManager - com.maddyhome.idea.copyright.CopyrightManager initialized in 20 ms 
+2014-08-16 16:16:04,445 [  37155]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dynamic.xml file is null 
+2014-08-16 16:16:04,470 [  37180]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.groovy.mvc.MvcModuleStructureSynchronizer initialized in 25 ms 
+2014-08-16 16:16:04,511 [  37221]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.project.MavenProjectsManager initialized in 40 ms 
+2014-08-16 16:16:04,534 [  37244]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.indices.MavenProjectIndicesManager initialized in 23 ms 
+2014-08-16 16:16:04,720 [  37430]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.tasks.MavenTasksManager initialized in 185 ms 
+2014-08-16 16:16:04,736 [  37446]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.navigator.MavenProjectsNavigator initialized in 201 ms 
+2014-08-16 16:16:04,796 [  37506]   INFO - ij.components.ComponentManager - org.jetbrains.android.uipreview.AndroidLayoutPreviewToolWindowManager initialized in 50 ms 
+2014-08-16 16:16:05,065 [  37775]   INFO - ij.components.ComponentManager - com.intellij.designer.DesignerToolWindowManager initialized in 266 ms 
+2014-08-16 16:16:05,265 [  37975]   INFO - ij.components.ComponentManager - com.intellij.designer.palette.PaletteToolWindowManager initialized in 199 ms 
+2014-08-16 16:16:05,346 [  38056]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 79 ms 
+2014-08-16 16:16:05,379 [  38089]   INFO - ij.components.ComponentManager - org.jetbrains.idea.svn.SvnFileUrlMappingImpl initialized in 32 ms 
+2014-08-16 16:16:05,383 [  38093]   INFO - ellij.project.impl.ProjectImpl - 139 project components initialized in 6605 ms 
+2014-08-16 16:16:05,628 [  38338]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 84 ms 
+2014-08-16 16:16:05,700 [  38410]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 69 ms 
+2014-08-16 16:16:06,012 [  38722]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 286 ms 
+2014-08-16 16:16:06,055 [  38765]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 42 ms 
+2014-08-16 16:16:06,056 [  38766]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 673 ms 
+2014-08-16 16:16:08,389 [  41099]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2014-08-16 16:16:09,475 [  42185]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-08-16 16:16:09,574 [  42284]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 86 ms 
+2014-08-16 16:16:11,020 [  43730]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2014-08-16 16:16:11,521 [  44231]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-08-16 16:16:14,833 [  47543]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/gant_config.xml file is null 
+2014-08-16 16:16:21,581 [  54291]   INFO - ins.android.sdk.AndroidSdkData - DDMLib initialized 
+2014-08-16 16:16:21,883 [  54593]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@6b151822; elapsed time was 90ms 
+2014-08-16 16:16:23,915 [  56625]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 14243 ms 
+2014-08-16 16:16:23,916 [  56626]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 16:16:23,917 [  56627]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2014-08-16 16:16:29,445 [  62155]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-08-16 16:16:29,454 [  62164]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-08-16 16:16:34,268 [  66978]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/remote-servers.xml file is null 
+2014-08-16 16:16:34,444 [  67154]   INFO - android.run.AndroidDebugRunner - device unauthorized. Please check the confirmation dialog on your device. 
+com.android.ddmlib.AdbCommandRejectedException: device unauthorized. Please check the confirmation dialog on your device.
+	at com.android.ddmlib.AdbHelper.setDevice(AdbHelper.java:774)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:396)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at org.jetbrains.android.util.AndroidUtils.executeCommandOnDevice(AndroidUtils.java:385)
+	at org.jetbrains.android.logcat.AndroidLogcatUtil.startLogging(AndroidLogcatUtil.java:67)
+	at org.jetbrains.android.logcat.AndroidLogcatUtil.access$100(AndroidLogcatUtil.java:46)
+	at org.jetbrains.android.logcat.AndroidLogcatUtil$4$1.run(AndroidLogcatUtil.java:135)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:419)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:149)
+2014-08-16 16:16:34,605 [  67315]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 36644 ms 
+2014-08-16 16:16:43,717 [  76427]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2014-08-16 16:16:43,717 [  76427]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestSupportsInput 
+2014-08-16 16:16:51,551 [  84261]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 16:16:52,504 [  85214]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2014-08-16 16:16:52,660 [  85370]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-08-16 16:16:52,661 [  85371]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-08-16 16:16:52,743 [  85453]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-08-16 16:16:52,743 [  85453]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-08-16 16:16:52,744 [  85454]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-08-16 16:16:52,744 [  85454]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-08-16 16:16:52,747 [  85457]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-08-16 16:16:52,772 [  85482]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-08-16 16:16:52,773 [  85483]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-08-16 16:16:52,777 [  85487]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-08-16 16:16:52,794 [  85504]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-08-16 17:14:49,154 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-08-16 17:14:49,176 [     22]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-135.1267975, 08 Jul 2014 00:00) 
+2014-08-16 17:14:49,176 [     22]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-32-generic, amd64) 
+2014-08-16 17:14:49,176 [     22]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-08-16 17:14:49,176 [     22]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-08-16 17:14:49,180 [     26]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Didea.project.structure.max.errors.to.show=0 -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+HeapDumpOnOutOfMemoryError -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/share/android-studio/data/bin/studio64.vmoptions -Xbootclasspath/a:/usr/share/android-studio/data/bin/../lib/boot.jar -Didea.paths.selector=AndroidStudioBeta -Didea.platform.prefix=AndroidStudio -Djb.restart.code=88 
+2014-08-16 17:14:49,234 [     80]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 54 ms 
+2014-08-16 17:14:49,388 [    234]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 151 ms 
+2014-08-16 17:14:49,388 [    234]   INFO -        #com.intellij.idea.Main - 2014-08-16 17:14:44 [Patch] Original patch does not exist: /tmp/jetbrains.patch.jar.androidstudio
+ 
+2014-08-16 17:14:49,618 [    464]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-08-16 17:14:51,899 [   2745]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-08-16 17:14:54,257 [   5103]   INFO - llij.ide.plugins.PluginManager - 22 plugins initialized in 4120 ms 
+2014-08-16 17:14:54,258 [   5104]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.0), CVS Integration (11), Commander (1.0.0), Copyright (8.1), Git Integration (8.1), GitHub, Google Cloud Tools For Android Studio (0.2.8), Gradle, Groovy (9.0), I18n for Java, IDEA CORE, IntelliLang (8.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), hg4idea (10.0) 
+2014-08-16 17:14:54,258 [   5104]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Genymotion (1.0.3) 
+2014-08-16 17:14:55,355 [   6201]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 221 ms 
+2014-08-16 17:14:55,421 [   6267]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=748027904 
+2014-08-16 17:14:55,622 [   6468]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 227 ms 
+2014-08-16 17:14:55,625 [   6471]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/share/android-studio/data/bin/fsnotifier64 
+2014-08-16 17:14:55,652 [   6498]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-08-16 17:14:55,653 [   6499]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 258 ms 
+2014-08-16 17:14:55,664 [   6510]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 280 ms 
+2014-08-16 17:14:56,024 [   6870]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 667 ms 
+2014-08-16 17:14:56,055 [   6901]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 24 ms 
+2014-08-16 17:14:56,242 [   7088]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 185 ms 
+2014-08-16 17:14:56,301 [   7147]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 38 ms 
+2014-08-16 17:14:56,323 [   7169]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 20 ms 
+2014-08-16 17:14:56,337 [   7183]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 13 ms 
+2014-08-16 17:14:56,581 [   7427]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 236 ms 
+2014-08-16 17:14:56,655 [   7501]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.ApplicationStatisticsPersistenceComponent initialized in 16 ms 
+2014-08-16 17:14:56,670 [   7516]   INFO - ij.components.ComponentManager - com.intellij.ide.ClipboardSynchronizer initialized in 11 ms 
+2014-08-16 17:14:56,694 [   7540]   INFO - ij.components.ComponentManager - com.intellij.util.net.HttpConfigurable initialized in 16 ms 
+2014-08-16 17:14:57,124 [   7970]   INFO - ij.components.ComponentManager - com.intellij.util.net.ssl.CertificateManager initialized in 428 ms 
+2014-08-16 17:14:57,137 [   7983]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-08-16 17:14:57,236 [   8082]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 96 ms 
+2014-08-16 17:14:57,615 [   8461]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 475 ms 
+2014-08-16 17:14:57,615 [   8461]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 476 ms 
+2014-08-16 17:14:57,665 [   8511]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.WindowManagerImpl initialized in 43 ms 
+2014-08-16 17:14:57,672 [   8518]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 51 ms 
+2014-08-16 17:14:57,707 [   8553]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 20 ms 
+2014-08-16 17:14:58,147 [   8993]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 403 ms 
+2014-08-16 17:14:58,204 [   9050]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 55 ms 
+2014-08-16 17:14:58,236 [   9082]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-08-16 17:14:58,242 [   9088]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-08-16 17:14:58,329 [   9175]   INFO - ij.components.ComponentManager - com.intellij.compiler.server.BuildManager initialized in 69 ms 
+2014-08-16 17:14:58,354 [   9200]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 14 ms 
+2014-08-16 17:14:58,390 [   9236]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 19 ms 
+2014-08-16 17:14:58,418 [   9264]   INFO - ij.components.ComponentManager - com.intellij.util.xml.impl.JavaDomApplicationComponent initialized in 20 ms 
+2014-08-16 17:14:59,111 [   9957]   INFO - ij.components.ComponentManager - com.android.tools.idea.AndroidInitialConfigurator initialized in 690 ms 
+2014-08-16 17:14:59,183 [  10029]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.utils.MavenEnvironmentRegistrar initialized in 11 ms 
+2014-08-16 17:14:59,568 [  10414]   INFO - ij.components.ComponentManager - org.jetbrains.android.AndroidPlugin initialized in 383 ms 
+2014-08-16 17:14:59,603 [  10449]   INFO - ij.components.ComponentManager - com.android.tools.idea.stats.StudioBuildStatsPersistenceComponent initialized in 33 ms 
+2014-08-16 17:14:59,617 [  10463]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-08-16 17:14:59,620 [  10466]   INFO - pl.stores.ApplicationStoreImpl - 84 application components initialized in 5311 ms 
+2014-08-16 17:14:59,625 [  10471]   INFO - .intellij.idea.IdeaApplication - App initialization took 12667 ms 
+2014-08-16 17:14:59,844 [  10690]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-08-16 17:15:01,445 [  12291]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 62 ms 
+2014-08-16 17:15:01,552 [  12398]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 96 ms 
+2014-08-16 17:15:01,591 [  12437]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.DirectoryIndexImpl initialized in 38 ms 
+2014-08-16 17:15:01,593 [  12439]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 40 ms 
+2014-08-16 17:15:01,630 [  12476]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ProjectRootManagerComponent initialized in 22 ms 
+2014-08-16 17:15:01,657 [  12503]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 63 ms 
+2014-08-16 17:15:01,684 [  12530]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 91 ms 
+2014-08-16 17:15:01,686 [  12532]   INFO - ij.components.ComponentManager - com.intellij.ui.EditorNotifications initialized in 93 ms 
+2014-08-16 17:15:01,703 [  12549]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 16 ms 
+2014-08-16 17:15:01,724 [  12570]   INFO - ij.components.ComponentManager - com.intellij.ui.switcher.SwitchManager initialized in 14 ms 
+2014-08-16 17:15:01,744 [  12590]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 16 ms 
+2014-08-16 17:15:01,761 [  12607]   INFO - ij.components.ComponentManager - com.intellij.openapi.module.impl.ModuleManagerComponent initialized in 14 ms 
+2014-08-16 17:15:01,892 [  12738]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 122 ms 
+2014-08-16 17:15:01,931 [  12777]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 25 ms 
+2014-08-16 17:15:02,052 [  12898]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 103 ms 
+2014-08-16 17:15:02,088 [  12934]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 157 ms 
+2014-08-16 17:15:02,091 [  12937]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsDirtyScopeManagerImpl initialized in 160 ms 
+2014-08-16 17:15:02,106 [  12952]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 213 ms 
+2014-08-16 17:15:02,127 [  12973]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 20 ms 
+2014-08-16 17:15:02,147 [  12993]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 13 ms 
+2014-08-16 17:15:02,184 [  13030]   INFO - ij.components.ComponentManager - com.intellij.packaging.impl.artifacts.ArtifactManagerImpl initialized in 13 ms 
+2014-08-16 17:15:02,204 [  13050]   INFO - ij.components.ComponentManager - com.intellij.compiler.CompilerConfigurationImpl initialized in 19 ms 
+2014-08-16 17:15:02,292 [  13138]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-16 17:15:02,310 [  13156]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-16 17:15:02,322 [  13168]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 117 ms 
+2014-08-16 17:15:02,354 [  13200]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 12 ms 
+2014-08-16 17:15:02,436 [  13282]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 65 ms 
+2014-08-16 17:15:02,461 [  13307]   INFO - ij.components.ComponentManager - com.intellij.javaee.PsiExternalResourceNotifier initialized in 24 ms 
+2014-08-16 17:15:02,496 [  13342]   INFO - ij.components.ComponentManager - com.intellij.debugger.impl.DebuggerManagerImpl initialized in 15 ms 
+2014-08-16 17:15:02,498 [  13344]   INFO - ij.components.ComponentManager - com.intellij.debugger.ui.DebuggerPanelsManager initialized in 25 ms 
+2014-08-16 17:15:02,519 [  13365]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.PostHighlightingPassFactory initialized in 19 ms 
+2014-08-16 17:15:02,557 [  13403]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-08-16 17:15:02,600 [  13446]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 80 ms 
+2014-08-16 17:15:02,654 [  13500]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 53 ms 
+2014-08-16 17:15:02,667 [  13513]   INFO - ij.components.ComponentManager - com.maddyhome.idea.copyright.CopyrightManager initialized in 13 ms 
+2014-08-16 17:15:02,672 [  13518]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dynamic.xml file is null 
+2014-08-16 17:15:02,689 [  13535]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.project.MavenProjectsManager initialized in 14 ms 
+2014-08-16 17:15:02,759 [  13605]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.tasks.MavenTasksManager initialized in 67 ms 
+2014-08-16 17:15:02,827 [  13673]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.navigator.MavenProjectsNavigator initialized in 135 ms 
+2014-08-16 17:15:03,107 [  13953]   INFO - ij.components.ComponentManager - com.intellij.designer.DesignerToolWindowManager initialized in 261 ms 
+2014-08-16 17:15:03,203 [  14049]   INFO - ij.components.ComponentManager - com.intellij.designer.palette.PaletteToolWindowManager initialized in 95 ms 
+2014-08-16 17:15:03,279 [  14125]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 70 ms 
+2014-08-16 17:15:03,298 [  14144]   INFO - ellij.project.impl.ProjectImpl - 139 project components initialized in 2386 ms 
+2014-08-16 17:15:03,541 [  14387]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 106 ms 
+2014-08-16 17:15:03,579 [  14425]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 36 ms 
+2014-08-16 17:15:03,689 [  14535]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 95 ms 
+2014-08-16 17:15:03,717 [  14563]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 27 ms 
+2014-08-16 17:15:03,727 [  14573]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 428 ms 
+2014-08-16 17:15:04,462 [  15308]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2014-08-16 17:15:05,044 [  15890]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-08-16 17:15:05,092 [  15938]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 41 ms 
+2014-08-16 17:15:05,643 [  16489]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2014-08-16 17:15:06,050 [  16896]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-08-16 17:15:07,763 [  18609]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/gant_config.xml file is null 
+2014-08-16 17:15:08,382 [  19228]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.ProgressManagerImpl$1@134b803d; elapsed time was 56ms 
+2014-08-16 17:15:11,568 [  22414]   INFO - ins.android.sdk.AndroidSdkData - DDMLib initialized 
+2014-08-16 17:15:13,356 [  24202]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 8211 ms 
+2014-08-16 17:15:13,356 [  24202]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 17:15:13,357 [  24203]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2014-08-16 17:15:15,961 [  26807]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-08-16 17:15:15,963 [  26809]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-08-16 17:15:18,859 [  29705]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2014-08-16 17:15:18,859 [  29705]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestSupportsInput 
+2014-08-16 17:15:20,982 [  31828]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/remote-servers.xml file is null 
+2014-08-16 17:15:21,139 [  31985]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 20295 ms 
+2014-08-16 17:15:23,006 [  33852]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2014-08-16 17:19:03,543 [ 254389]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 17:19:03,658 [ 254504]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 17:19:03,795 [ 254641]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 17:19:03,796 [ 254642]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 17:19:03,806 [ 254652]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 17:19:03,848 [ 254694]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 17:19:38,593 [ 289439]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 9 ms 
+2014-08-16 17:19:38,600 [ 289446]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 17:19:38,600 [ 289446]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 17:21:05,865 [ 376711]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-08-16 17:21:06,118 [ 376964]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/IntelliLang.xml file is null 
+2014-08-16 17:21:23,261 [ 394107]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-08-16 17:21:25,593 [ 396439]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/checker.xml file is null 
+2014-08-16 17:25:00,540 [ 611386]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestSupportsInput 
+2014-08-16 17:25:00,541 [ 611387]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2014-08-16 17:29:10,692 [ 861538]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix jar:file:/usr/share/android-studio/data/plugins/android/lib/android.jar!/icons/androidPreview.png 
+2014-08-16 17:29:13,079 [ 863925]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-08-16 17:29:19,437 [ 870283]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2014-08-16 17:29:19,438 [ 870284]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/postfixTemplates.xml file is null 
+2014-08-16 17:32:56,303 [1087149]   INFO - openapi.editor.impl.EditorImpl - Cache hits:4096, total requests:5233,file:///home/sehmon/Development/Sunshine/app/src/main/res/layout/list_item_forecast.xml 
+2014-08-16 17:47:24,320 [1955166]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 17:47:24,337 [1955183]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 17:47:24,341 [1955187]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 17:47:24,342 [1955188]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 17:47:24,342 [1955188]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 17:47:24,342 [1955188]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 17:47:40,976 [1971822]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 42 ms 
+2014-08-16 17:47:40,976 [1971822]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 17:47:40,976 [1971822]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 17:50:34,506 [2145352]   INFO - openapi.editor.impl.EditorImpl - Cache hits:4096, total requests:5922,file:///home/sehmon/Development/Sunshine/app/src/main/res/layout/fragment_main.xml 
+2014-08-16 17:53:58,763 [2349609]   INFO - openapi.editor.impl.EditorImpl - Cache hits:4096, total requests:8698,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 17:55:25,538 [2436384]   INFO - openapi.editor.impl.EditorImpl - Cache hits:8192, total requests:17760,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:02:07,717 [2838563]   INFO - openapi.editor.impl.EditorImpl - Cache hits:12288, total requests:25688,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:03:41,397 [2932243]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:03:41,500 [2932346]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:03:41,523 [2932369]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:03:41,524 [2932370]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:03:41,524 [2932370]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:03:41,524 [2932370]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:04:11,957 [2962803]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 681 ms 
+2014-08-16 18:04:11,957 [2962803]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 18:04:11,958 [2962804]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 18:07:55,900 [3186746]   INFO - openapi.editor.impl.EditorImpl - Cache hits:16384, total requests:33017,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:11:51,839 [3422685]   INFO - openapi.editor.impl.EditorImpl - Cache hits:20480, total requests:40467,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:12:13,378 [3444224]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:12:13,400 [3444246]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:12:13,402 [3444248]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:12:13,402 [3444248]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:12:13,402 [3444248]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:13,402 [3444248]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:20,397 [3451243]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 34 ms 
+2014-08-16 18:12:20,397 [3451243]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2014-08-16 18:12:20,408 [3451254]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 11 ms 
+2014-08-16 18:12:34,723 [3465569]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:12:34,734 [3465580]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:12:34,740 [3465586]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:12:34,741 [3465587]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:12:34,741 [3465587]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:34,741 [3465587]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:38,094 [3468940]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 6 ms 
+2014-08-16 18:12:38,094 [3468940]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 18:12:38,094 [3468940]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 18:12:45,204 [3476050]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:12:45,212 [3476058]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:12:45,213 [3476059]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:12:45,213 [3476059]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:12:45,213 [3476059]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:45,213 [3476059]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:12:53,949 [3484795]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 8 ms 
+2014-08-16 18:12:53,949 [3484795]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 18:12:53,949 [3484795]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 18:14:06,701 [3557547]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:14:06,709 [3557555]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:14:06,712 [3557558]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:14:06,713 [3557559]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:14:06,713 [3557559]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:14:06,713 [3557559]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:14:12,374 [3563220]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 6 ms 
+2014-08-16 18:14:12,374 [3563220]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-16 18:14:12,374 [3563220]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-16 18:14:14,764 [3565610]   INFO - notification.NotificationGroup - Notification group Android Session Restarted is already registered 
+java.lang.Throwable
+	at com.intellij.notification.NotificationGroup.<init>(NotificationGroup.java:52)
+	at com.intellij.notification.NotificationGroup.toolWindowGroup(NotificationGroup.java:66)
+	at org.jetbrains.android.run.AndroidDebugRunner$6.run(AndroidDebugRunner.java:325)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:319)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:524)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:335)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2014-08-16 18:16:15,185 [3686031]   INFO - openapi.editor.impl.EditorImpl - Cache hits:24576, total requests:47079,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:17:30,449 [3761295]   INFO - openapi.editor.impl.EditorImpl - Cache hits:28672, total requests:54558,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:17:33,426 [3764272]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-16 18:17:33,434 [3764280]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:17:33,436 [3764282]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-16 18:17:33,436 [3764282]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-16 18:17:33,436 [3764282]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:17:33,436 [3764282]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-16 18:17:38,784 [3769630]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 5 ms 
+2014-08-16 18:17:38,785 [3769631]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2014-08-16 18:17:38,813 [3769659]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 28 ms 
+2014-08-16 18:20:44,331 [3955177]   INFO - openapi.editor.impl.EditorImpl - Cache hits:32768, total requests:62038,file:///home/sehmon/Development/Sunshine/app/src/main/java/com/example/android/sunshine/app/MainActivity.java 
+2014-08-16 18:20:58,049 [3968895]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-16 18:20:59,810 [3970656]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2014-08-16 18:21:00,609 [3971455]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-08-16 18:21:00,610 [3971456]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-08-16 18:21:00,689 [3971535]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-08-16 18:21:00,689 [3971535]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-08-16 18:21:00,689 [3971535]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-08-16 18:21:00,691 [3971537]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-08-16 18:21:00,907 [3971753]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-08-16 18:21:00,965 [3971811]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-08-16 18:21:00,966 [3971812]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-08-16 18:21:00,971 [3971817]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-08-16 18:21:00,975 [3971821]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2014-08-17 19:44:21,095 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2014-08-17 19:44:21,221 [    126]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-135.1267975, 08 Jul 2014 00:00) 
+2014-08-17 19:44:21,222 [    127]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2014-08-17 19:44:21,222 [    127]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_55-b14 (Oracle Corporation) 
+2014-08-17 19:44:21,222 [    127]   INFO -        #com.intellij.idea.Main - JVM: 24.51-b03 (OpenJDK 64-Bit Server VM) 
+2014-08-17 19:44:21,286 [    191]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=96m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Didea.project.structure.max.errors.to.show=0 -Djsse.enableSNIExtension=false -XX:+UseCodeCacheFlushing -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+HeapDumpOnOutOfMemoryError -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/share/android-studio/data/bin/studio64.vmoptions -Xbootclasspath/a:/usr/share/android-studio/data/bin/../lib/boot.jar -Didea.paths.selector=AndroidStudioBeta -Didea.platform.prefix=AndroidStudio -Djb.restart.code=88 
+2014-08-17 19:44:21,479 [    384]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 192 ms 
+2014-08-17 19:44:21,740 [    645]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 241 ms 
+2014-08-17 19:44:21,741 [    646]   INFO -        #com.intellij.idea.Main - 2014-08-17 19:44:12 [Patch] Original patch does not exist: /tmp/jetbrains.patch.jar.androidstudio
+ 
+2014-08-17 19:44:22,586 [   1491]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2014-08-17 19:44:24,973 [   3878]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-python-support.xml 
+2014-08-17 19:44:27,108 [   6013]   INFO - llij.ide.plugins.PluginManager - 22 plugins initialized in 3646 ms 
+2014-08-17 19:44:27,110 [   6015]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.0), CVS Integration (11), Commander (1.0.0), Copyright (8.1), Git Integration (8.1), GitHub, Google Cloud Tools For Android Studio (0.2.8), Gradle, Groovy (9.0), I18n for Java, IDEA CORE, IntelliLang (8.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), hg4idea (10.0) 
+2014-08-17 19:44:27,110 [   6015]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Genymotion (1.0.3) 
+2014-08-17 19:44:32,459 [  11364]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 870 ms 
+2014-08-17 19:44:32,637 [  11542]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=748027904 
+2014-08-17 19:44:33,133 [  12038]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 628 ms 
+2014-08-17 19:44:33,145 [  12050]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /usr/share/android-studio/data/bin/fsnotifier64 
+2014-08-17 19:44:33,192 [  12097]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2014-08-17 19:44:33,193 [  12098]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 688 ms 
+2014-08-17 19:44:33,204 [  12109]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 710 ms 
+2014-08-17 19:44:33,747 [  12652]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 1286 ms 
+2014-08-17 19:44:33,881 [  12786]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectManagerImpl initialized in 103 ms 
+2014-08-17 19:44:34,913 [  13818]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 1031 ms 
+2014-08-17 19:44:34,950 [  13855]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl initialized in 25 ms 
+2014-08-17 19:44:35,012 [  13917]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 60 ms 
+2014-08-17 19:44:35,188 [  14093]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 175 ms 
+2014-08-17 19:44:35,205 [  14110]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 15 ms 
+2014-08-17 19:44:35,246 [  14151]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.UISettings initialized in 33 ms 
+2014-08-17 19:44:35,694 [  14599]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 481 ms 
+2014-08-17 19:44:35,740 [  14645]   INFO - ij.components.ComponentManager - com.intellij.diagnostic.PerformanceWatcher initialized in 17 ms 
+2014-08-17 19:44:35,810 [  14715]   INFO - ij.components.ComponentManager - com.intellij.notification.impl.NotificationsConfigurationImpl initialized in 69 ms 
+2014-08-17 19:44:35,838 [  14743]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.UsageStatisticsPersistenceComponent initialized in 21 ms 
+2014-08-17 19:44:35,863 [  14768]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.ApplicationStatisticsPersistenceComponent initialized in 23 ms 
+2014-08-17 19:44:35,959 [  14864]   INFO - ij.components.ComponentManager - com.intellij.util.net.HttpConfigurable initialized in 86 ms 
+2014-08-17 19:44:36,742 [  15647]   INFO - ij.components.ComponentManager - com.intellij.util.net.ssl.CertificateManager initialized in 782 ms 
+2014-08-17 19:44:36,763 [  15668]   INFO - ij.components.ComponentManager - com.intellij.ide.SystemHealthMonitor initialized in 18 ms 
+2014-08-17 19:44:36,765 [  15670]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2014-08-17 19:44:36,860 [  15765]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 94 ms 
+2014-08-17 19:44:36,880 [  15785]   INFO - ij.components.ComponentManager - com.intellij.ide.impl.DataManagerImpl initialized in 18 ms 
+2014-08-17 19:44:37,866 [  16771]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 1099 ms 
+2014-08-17 19:44:37,866 [  16771]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorLastActionTrackerImpl initialized in 1100 ms 
+2014-08-17 19:44:37,968 [  16873]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.WindowManagerImpl initialized in 72 ms 
+2014-08-17 19:44:37,975 [  16880]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 79 ms 
+2014-08-17 19:44:38,050 [  16955]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 62 ms 
+2014-08-17 19:44:38,083 [  16988]   INFO - ij.components.ComponentManager - com.intellij.ide.GeneralSettings initialized in 29 ms 
+2014-08-17 19:44:38,085 [  16990]   INFO - ij.components.ComponentManager - com.intellij.ide.SaveAndSyncHandlerImpl initialized in 32 ms 
+2014-08-17 19:44:38,130 [  17035]   INFO - ij.components.ComponentManager - com.intellij.openapi.updateSettings.impl.UpdateCheckerComponent initialized in 36 ms 
+2014-08-17 19:44:38,305 [  17210]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.SerializationManagerImpl initialized in 165 ms 
+2014-08-17 19:44:42,614 [  21519]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 4473 ms 
+2014-08-17 19:44:44,351 [  23256]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 1735 ms 
+2014-08-17 19:44:44,383 [  23288]   INFO - ij.components.ComponentManager - com.intellij.tools.ToolManager initialized in 30 ms 
+2014-08-17 19:44:44,460 [  23365]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.libraries.LibraryKindLoader initialized in 73 ms 
+2014-08-17 19:44:44,479 [  23384]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2014-08-17 19:44:44,485 [  23390]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2014-08-17 19:44:44,565 [  23470]   INFO - ij.components.ComponentManager - com.intellij.compiler.impl.TranslatingCompilerFilesMonitor initialized in 72 ms 
+2014-08-17 19:44:44,726 [  23631]   INFO - ij.components.ComponentManager - com.intellij.compiler.server.BuildManager initialized in 159 ms 
+2014-08-17 19:44:44,772 [  23677]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 43 ms 
+2014-08-17 19:44:44,859 [  23764]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunnerRegistryImpl initialized in 84 ms 
+2014-08-17 19:44:44,889 [  23794]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsDirtyScopeVfsListener initialized in 25 ms 
+2014-08-17 19:44:45,018 [  23923]   INFO - ij.components.ComponentManager - org.intellij.plugins.relaxNG.ApplicationLoader initialized in 113 ms 
+2014-08-17 19:44:45,046 [  23951]   INFO - ij.components.ComponentManager - com.siyeh.ig.InspectionGadgetsPlugin initialized in 23 ms 
+2014-08-17 19:44:45,129 [  24034]   INFO - ij.components.ComponentManager - com.intellij.util.xml.impl.JavaDomApplicationComponent initialized in 82 ms 
+2014-08-17 19:44:47,609 [  26514]   INFO - ij.components.ComponentManager - com.android.tools.idea.AndroidInitialConfigurator initialized in 2477 ms 
+2014-08-17 19:44:47,667 [  26572]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.utils.MavenEnvironmentRegistrar initialized in 51 ms 
+2014-08-17 19:44:48,585 [  27490]   INFO - ij.components.ComponentManager - org.jetbrains.android.AndroidPlugin initialized in 916 ms 
+2014-08-17 19:44:48,656 [  27561]   INFO - ij.components.ComponentManager - com.android.tools.idea.stats.StudioBuildStatsPersistenceComponent initialized in 69 ms 
+2014-08-17 19:44:48,659 [  27564]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/terminal.xml file is null 
+2014-08-17 19:44:48,663 [  27568]   INFO - pl.stores.ApplicationStoreImpl - 84 application components initialized in 21189 ms 
+2014-08-17 19:44:48,738 [  27643]   INFO - .intellij.idea.IdeaApplication - App initialization took 33130 ms 
+2014-08-17 19:44:49,558 [  28463]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2014-08-17 19:44:54,354 [  33259]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 57 ms 
+2014-08-17 19:44:54,391 [  33296]   INFO - ij.components.ComponentManager - com.intellij.notification.EventLog$ProjectTracker initialized in 32 ms 
+2014-08-17 19:44:54,498 [  33403]   INFO - ij.components.ComponentManager - com.intellij.openapi.project.impl.ProjectReloadStateImpl initialized in 105 ms 
+2014-08-17 19:44:54,525 [  33430]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.DirectoryIndexImpl initialized in 26 ms 
+2014-08-17 19:44:54,527 [  33432]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 28 ms 
+2014-08-17 19:44:54,582 [  33487]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ProjectRootManagerComponent initialized in 45 ms 
+2014-08-17 19:44:54,620 [  33525]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 92 ms 
+2014-08-17 19:44:54,672 [  33577]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 145 ms 
+2014-08-17 19:44:54,675 [  33580]   INFO - ij.components.ComponentManager - com.intellij.ui.EditorNotifications initialized in 148 ms 
+2014-08-17 19:44:54,701 [  33606]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 25 ms 
+2014-08-17 19:44:54,733 [  33638]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 57 ms 
+2014-08-17 19:44:54,768 [  33673]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 15 ms 
+2014-08-17 19:44:54,808 [  33713]   INFO - ij.components.ComponentManager - com.intellij.openapi.module.impl.ModuleManagerComponent initialized in 36 ms 
+2014-08-17 19:44:55,055 [  33960]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 241 ms 
+2014-08-17 19:44:55,194 [  34099]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 68 ms 
+2014-08-17 19:44:55,269 [  34174]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsChangeDetailsManager initialized in 41 ms 
+2014-08-17 19:44:55,518 [  34423]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 296 ms 
+2014-08-17 19:44:55,627 [  34532]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 432 ms 
+2014-08-17 19:44:55,630 [  34535]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.VcsDirtyScopeManagerImpl initialized in 435 ms 
+2014-08-17 19:44:55,654 [  34559]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 599 ms 
+2014-08-17 19:44:55,723 [  34628]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 68 ms 
+2014-08-17 19:44:55,748 [  34653]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexProjectHandler initialized in 20 ms 
+2014-08-17 19:44:55,839 [  34744]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 91 ms 
+2014-08-17 19:44:55,874 [  34779]   INFO - ij.components.ComponentManager - com.intellij.facet.impl.pointers.FacetPointersManagerImpl initialized in 30 ms 
+2014-08-17 19:44:55,890 [  34795]   INFO - ij.components.ComponentManager - com.intellij.facet.impl.ui.FacetDependentToolWindowManager initialized in 15 ms 
+2014-08-17 19:44:55,902 [  34807]   INFO - ij.components.ComponentManager - com.intellij.ide.favoritesTreeView.FavoritesManager initialized in 11 ms 
+2014-08-17 19:44:55,966 [  34871]   INFO - ij.components.ComponentManager - com.intellij.packaging.impl.artifacts.ArtifactManagerImpl initialized in 58 ms 
+2014-08-17 19:44:56,037 [  34942]   INFO - ij.components.ComponentManager - com.intellij.compiler.CompilerConfigurationImpl initialized in 71 ms 
+2014-08-17 19:44:56,639 [  35544]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-17 19:44:56,804 [  35709]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2014-08-17 19:44:56,835 [  35740]   INFO - ij.components.ComponentManager - com.intellij.execution.impl.RunManagerImpl initialized in 795 ms 
+2014-08-17 19:44:56,875 [  35780]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 24 ms 
+2014-08-17 19:44:56,910 [  35815]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 27 ms 
+2014-08-17 19:44:56,935 [  35840]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.committed.CommittedChangesCache initialized in 24 ms 
+2014-08-17 19:44:57,020 [  35925]   INFO - ij.components.ComponentManager - com.intellij.framework.detection.impl.FrameworkDetectionManager initialized in 78 ms 
+2014-08-17 19:44:57,188 [  36093]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 167 ms 
+2014-08-17 19:44:57,224 [  36129]   INFO - ij.components.ComponentManager - com.intellij.javaee.PsiExternalResourceNotifier initialized in 34 ms 
+2014-08-17 19:44:57,276 [  36181]   INFO - ij.components.ComponentManager - com.intellij.debugger.impl.DebuggerManagerImpl initialized in 29 ms 
+2014-08-17 19:44:57,278 [  36183]   INFO - ij.components.ComponentManager - com.intellij.debugger.ui.DebuggerPanelsManager initialized in 50 ms 
+2014-08-17 19:44:57,369 [  36274]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.PostHighlightingPassFactory initialized in 87 ms 
+2014-08-17 19:44:57,519 [  36424]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2014-08-17 19:44:57,603 [  36508]   INFO - ij.components.ComponentManager - git4idea.repo.GitRepositoryManager initialized in 232 ms 
+2014-08-17 19:44:57,709 [  36614]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 106 ms 
+2014-08-17 19:44:57,730 [  36635]   INFO - ij.components.ComponentManager - com.maddyhome.idea.copyright.CopyrightManager initialized in 20 ms 
+2014-08-17 19:44:57,734 [  36639]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/dynamic.xml file is null 
+2014-08-17 19:44:57,760 [  36665]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.groovy.mvc.MvcModuleStructureSynchronizer initialized in 26 ms 
+2014-08-17 19:44:57,800 [  36705]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.project.MavenProjectsManager initialized in 39 ms 
+2014-08-17 19:44:57,824 [  36729]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.indices.MavenProjectIndicesManager initialized in 23 ms 
+2014-08-17 19:44:58,010 [  36915]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.tasks.MavenTasksManager initialized in 185 ms 
+2014-08-17 19:44:58,048 [  36953]   INFO - ij.components.ComponentManager - org.jetbrains.idea.maven.navigator.MavenProjectsNavigator initialized in 223 ms 
+2014-08-17 19:44:58,108 [  37013]   INFO - ij.components.ComponentManager - org.jetbrains.android.uipreview.AndroidLayoutPreviewToolWindowManager initialized in 50 ms 
+2014-08-17 19:44:58,144 [  37049]   INFO - ij.components.ComponentManager - com.android.tools.idea.gradle.project.AndroidGradleProjectComponent initialized in 35 ms 
+2014-08-17 19:44:58,410 [  37315]   INFO - ij.components.ComponentManager - com.intellij.designer.DesignerToolWindowManager initialized in 265 ms 
+2014-08-17 19:44:58,625 [  37530]   INFO - ij.components.ComponentManager - com.intellij.designer.palette.PaletteToolWindowManager initialized in 214 ms 
+2014-08-17 19:44:58,706 [  37611]   INFO - ij.components.ComponentManager - org.zmlx.hg4idea.HgRepositoryWatcher initialized in 80 ms 
+2014-08-17 19:44:58,736 [  37641]   INFO - ij.components.ComponentManager - org.jetbrains.idea.svn.SvnFileUrlMappingImpl initialized in 28 ms 
+2014-08-17 19:44:58,740 [  37645]   INFO - ellij.project.impl.ProjectImpl - 139 project components initialized in 6721 ms 
+2014-08-17 19:44:58,983 [  37888]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 85 ms 
+2014-08-17 19:44:59,057 [  37962]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 72 ms 
+2014-08-17 19:44:59,402 [  38307]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 319 ms 
+2014-08-17 19:44:59,446 [  38351]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 43 ms 
+2014-08-17 19:44:59,446 [  38351]   INFO - le.impl.ModuleManagerComponent - 2 module(s) loaded in 706 ms 
+2014-08-17 19:45:02,099 [  41004]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2014-08-17 19:45:03,239 [  42144]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting started 
+2014-08-17 19:45:03,634 [  42539]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting finished 
+2014-08-17 19:45:03,786 [  42691]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 0 ms, indexed 0 directories 
+2014-08-17 19:45:03,911 [  42816]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 112 ms 
+2014-08-17 19:45:04,997 [  43902]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2014-08-17 19:45:06,303 [  45208]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2014-08-17 19:45:06,306 [  45211]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2014-08-17 19:45:06,933 [  45838]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2014-08-17 19:45:09,597 [  48502]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 5573 ms 
+2014-08-17 19:45:09,597 [  48502]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2014-08-17 19:45:10,034 [  48939]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 437 ms 
+2014-08-17 19:45:17,253 [  56158]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/gant_config.xml file is null 
+2014-08-17 19:45:20,266 [  59171]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2014-08-17 19:45:20,267 [  59172]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestSupportsInput 
+2014-08-17 19:45:24,280 [  63185]   INFO - nject.config.XPathSupportProxy - XPath Support is not available 
+2014-08-17 19:45:24,374 [  63279]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/IntelliLang.xml file is null 
+2014-08-17 19:45:25,923 [  64828]   INFO - ins.android.sdk.AndroidSdkData - DDMLib initialized 
+2014-08-17 19:45:33,192 [  72097]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/remote-servers.xml file is null 
+2014-08-17 19:45:34,084 [  72989]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 42260 ms 
+2014-08-17 19:45:48,203 [  87108]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/checker.xml file is null 
+2014-08-17 19:45:48,407 [  87312]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2014-08-17 19:46:15,754 [ 114659]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2014-08-17 19:46:16,935 [ 115840]   INFO - a.gradle.invoker.GradleInvoker - About to execute Gradle tasks: [:app:assembleDebug] 
+2014-08-17 19:46:17,172 [ 116077]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-17 19:46:17,374 [ 116279]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/template.settings.xml file is null 
+2014-08-17 19:46:17,657 [ 116562]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at '/usr/share/android-studio/data/sdk' (from local.properties file) 
+2014-08-17 19:46:17,658 [ 116563]   INFO - a.gradle.invoker.GradleInvoker - Build JVM args: [] 
+2014-08-17 19:46:17,662 [ 116567]   INFO - a.gradle.invoker.GradleInvoker - Build command line options: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-17 19:46:17,689 [ 116594]   INFO - .project.GradleExecutionHelper - Passing command-line args to Gradle Tooling API: [--configure-on-demand, -Pandroid.injected.invoked.from.ide=true] 
+2014-08-17 19:46:47,959 [ 146864]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 140 ms 
+2014-08-17 19:46:47,986 [ 146891]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2014-08-17 19:46:47,986 [ 146891]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2014-08-17 19:46:51,084 [ 149989]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2014-08-17 19:47:37,574 [ 196479]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/postfixTemplates.xml file is null 
+2014-08-17 19:47:40,758 [ 199663]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2014-08-17 19:48:15,692 [ 234597]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from /usr/lib/jvm/default-java 
+2014-08-17 19:48:16,815 [ 235720]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2014-08-17 19:48:16,924 [ 235829]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2014-08-17 19:48:16,925 [ 235830]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2014-08-17 19:48:17,005 [ 235910]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2014-08-17 19:48:17,005 [ 235910]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2014-08-17 19:48:17,006 [ 235911]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2014-08-17 19:48:17,006 [ 235911]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2014-08-17 19:48:17,009 [ 235914]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2014-08-17 19:48:17,026 [ 235931]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2014-08-17 19:48:17,026 [ 235931]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2014-08-17 19:48:17,035 [ 235940]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2014-08-17 19:48:17,076 [ 235981]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 

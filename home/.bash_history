@@ -897,3 +897,577 @@ cal
 jrnl 13 august: More Work Orders and AOE. Today was a simple day at work, we did work orders and played Age of Empires. I worked on the printer website for Damien. I had to go through a flask tuorial again to learn how to use it. I need to practice. By the end of this year I want to be proficient in Java, Android, and Python. I think I can do it.
 jrnl yesterday: Last Day of Internship. Today was the last day of internship, and it was filled with work. We had to move all the recycling back up to storage, but Downey treated us all out to lunch at Friday's. I'm gonna miss Francis, he was really funny and knew a lot, but this year is gonna be a good one. 
 ssh root@192.168.1.143
+man du
+du -ah
+ls
+du -h
+man du
+du -hs
+ls
+du -h Documents/
+ls | xargs du -h
+ls
+du -hs
+du -hs Documents/
+ll
+ls | xargs du -hs
+ls
+cd Downloads/
+ls
+cat journal.txt 
+rm journal.txt 
+rm box6_puppet_master_mvt3_countsheet.xls 
+man rsync
+ls
+ls | xargs du -hs
+cd ..
+ls | xargs du -hs
+cd Development/
+ls | xargs du -hs
+<?xml version="1.0" encoding="UTF-8"?><SCRIBUSFRAGMENT ><font name="Abyssinica SIL Regular" /><font name="URW Chancery L Medium Italic" /><colors ><color CMYK="#000000ff" Register="no" Spot="no" name="Black" /><color CMYK="#00000000" Register="no" Spot="no" name="White" /></colors><style Alignment="0" DropCapLines="2" DropCapOffset="0" FirstIndent="0" GapAfter="0" GapBefore="0" HasDropCap="no" LeftMargin="0" LineSpacing="15" LineSpacingMode="0" RightMargin="0" id="styleDefault_0020Paragraph_0020Style" name="Default Paragraph Style" /><charstyle BaselineOffset="0" Features="inherit " FillColor="Black" FillShade="100" Font="Abyssinica SIL Regular" FontSize="120" Language="English" OutlineWidth="10" ScaleH="1000" ScaleV="1000" ShadowXOffset="50" ShadowYOffset="-50" StrikethruOffset="-1" StrikethruWidth="-1" StrokeColor="Black" StrokeShade="100" Tracking="0" UnderlineOffset="-1" UnderlineWidth="-1" id="charstyleDefault_0020Character_0020Style" name="Default Character Style" /><item bottom-distance="0" cms-intent="1" cms-profile="" corner-radius="0" do-overprint="no" fill-blendmode="0" fill-color="None" fill-evenodd="yes" fill-gradient-type="0" fill-shade="100" fill-transparency="0" first-line-offset="0" frame-contour="M0 0 C0 0 100 0 100 0 C100 0 100 100 100 100 C100 100 0 100 0 100 C0 100 0 0 0 0 " frame-has-default-shape="yes" frame-shape="M0 0 C0 0 100 0 100 0 C100 0 100 100 100 100 C100 100 0 100 0 100 C0 100 0 0 0 0 " frame-type="0" height="100" id="obj190" image-embedded-profile="" image-flipped-hor="no" image-flipped-vert="no" image-scale-framesize="no" image-scale-proportional="yes" image-shown="yes" image-use-embedded="yes" image-x-position="0" image-x-scale="1" image-y-position="0" image-y-scale="1" is-annotation="no" is-bookmark="no" isTableItem="no" itemtype="4" layer="0" left-distance="0" level="9" line-blendmode="0" line-cap="0" line-color="None" line-customstyle="" line-end-arrow="0" line-join="0" line-shade="100" line-start-arrow="0" line-style="1" line-transparency="0" line-width="1" locked="no" ownpage="0" pagenumber="0" pathtext-baseoffset="0" pathtext-flipped="no" pathtext-showpath="no" pathtext-type="0" printable="yes" right-distance="0" rotation="0" size-locked="no" text-autoframes="no" text-columngap="0" text-columns="1" text-flow-mode="0" text-reversed="no" top-distance="0" width="100" xorigin="53.1875" yorigin="530.75" /></SCRIBUSFRAGMENT>
+clear
+:man terminator
+man terminator
+ls
+cd printersite/
+vim
+vim run.py 
+vim app/views.py
+vim app/templates/school.html 
+vim app/views.py
+ls
+mkdir csvfiles
+cd csvfiles/
+cd ..
+vim app/models.py
+ld
+ls
+vim csv_to_db.py
+ls
+vim app/views.py
+ls
+cat printers.csv 
+clear
+vim app/views.py
+cat app/templates/room.html 
+vim app/views.py
+clear
+d
+cd
+git clone git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+ls
+ls -a
+cd .homesick/
+ls
+cd repos/
+ls
+cd homeshick/
+ls
+cat README.md | less
+source homeshick.sh 
+ls
+cd
+ls
+ls -a
+cd .homesick/
+ls
+cd repos/
+ls
+cd homeshick/
+ls
+cd bin/
+ls
+cd ..
+chmod +x homeshick.sh 
+./home
+./homeshick.sh 
+vim homeshick.sh 
+cd
+clear
+homeshick clone https://github.com/yawkity/dotfiles.git
+ls
+cd .homesick/
+ls
+cd repos/
+ls
+cd dotfiles/
+ls
+cd ..
+cd homeshick/
+ls
+cat README.md | less
+ls
+cd
+ls
+homeshick track journal.txt 
+ls
+file journal.txt 
+ls -a
+homeshick track dotfiles .vimrc
+ls
+homeshick track dotfiles .vim/
+ls
+homeshick track dotfiles .config/terminator/config 
+ls -a
+homeshick track dotfiles .bash*
+cd .pip/
+ls
+cd ..
+ls
+cd .themes/
+ls
+cd ..
+homeshick track dotfiles .themes/
+du .themes/
+du -h the
+du -h .themes/
+ls
+ls -a
+file .bash
+file .bashrc 
+homeshick track dotfiles .AndroidStudioBeta/
+homeshick check
+homeshick ref
+homeshick refresh
+homeshick cd dotfiles
+ls
+cd home/
+ls
+ls -a
+cd ..
+git status
+homeshick cd dotfiles
+git commit -m "Initial Commit"
+git push origin master 
+clear
+ls
+cd
+ls
+cd De
+cd Desktop/
+ls
+cd ..
+rmdir Desktop/
+ls
+cd Pictures/
+ls
+cd Wallpapers/
+ls
+cd ..
+mv *.* Wallpapers/
+ls
+cd Wallpapers/
+ls
+cd ..
+ls
+cd ..
+ls
+cd Music/
+ls
+cd ..
+ls
+ls -a
+cat .viminfo 
+clear
+ls
+cd Development/
+ls
+cd printersite/
+ls
+ll
+vim app/views.py
+vim app/templates/instructions.html 
+vim app/views.py
+cd
+vim .vimrc 
+vim
+ls
+vim .vimrc
+vim
+ls
+cd Development/
+ls
+cd printersite/
+ls
+vim app/templates/instructions.html 
+lear
+clear
+cd printersite/
+ls
+source bin/activate
+./run.py 
+ls
+run
+run.py
+git status
+ls
+cat run.py 
+run.py
+./run.py 
+clear
+python csv_to_db.py 
+clear
+python csv_to_db.py 
+python
+./run.py 
+ls
+cat db_create.py 
+vim db_migrate.py 
+vim db_create.py 
+ls
+python csv_to_db.py 
+python delete_printers.py 
+python csv_to_db.py 
+vim csv_to_db.py 
+python csv_to_db.py 
+run.py
+./run.py 
+git status
+:q
+clear
+cd
+deactivate 
+cd .homesick/repos/dotfiles/
+ls
+mkdir home
+clear
+cd
+ls
+ll
+clear
+ls
+cd .homesick/repos/dotfiles/
+ls
+cd home/
+ls
+ls -a
+file .AndroidStudioBeta/
+cd
+ls
+clear
+ls
+cd Development/
+ls
+cd printersite/
+ls
+source bin/activate
+ls
+clera
+./run.py 
+clera
+./run.py 
+ls
+git status
+git add -A
+git commit -m "Added comments in views.py"
+git push origin master 
+./run.py 
+cd printersite/
+vim app/templates/room.html 
+ls
+mv csvfiles/printers.csv printers.csv
+ls
+rmdir csvfiles/
+ls
+clear
+ls
+vim app/models.py
+man vim
+vim app/templates/room.html 
+ls
+cd app/
+ls
+cd templates/
+vim printers.html
+cat room.html 
+fg
+vim room.html 
+fg
+vim room.html 
+vim school.html 
+vim room.html 
+ls
+vim printers.html 
+cd ../..
+ls
+vim delete_printers.py
+ls
+chmod +x delete_printers.py 
+python delete_printers.py 
+vim delete_printers.py 
+python delete_printers.py 
+vim delete_printers.py 
+python delete_printers.py 
+vim delete_printers.py 
+python delete_printers.py 
+vim delete_printers.py 
+python delete_printers.py 
+:q
+vim delete_printers.py 
+python delete_printers.py 
+ls
+vim delete_printers.py 
+./delete_printers.py 
+chmod +x csv_to_db.py 
+./csv_to_db.py 
+vim csv_to_db.py 
+./csv_to_db.py 
+python csv_to_db.py 
+vim csv_to_db.py 
+python csv_to_db.py 
+./csv_to_db.py 
+vim csv_to_db.py 
+git status
+git add -A
+git status
+git commit -m "Added csv scripts for easy database management"
+git push origin master 
+git status
+:q
+clear
+cd
+ls
+ls -a
+cd .config/
+ls
+cd ..
+ls
+clear
+cd /
+ls
+ls proc/
+cd sys/power/
+ls
+cat state 
+cat image_size 
+cd
+ls
+jrnl today: Soccer all day. Today was a soccer day, played once at wheeler then later that day in Scotch Plains. Went home and worked on the printer website a little.
+clear
+cd Development/printersite/
+ls
+vim app/templates/room.html 
+vim app/templates/printers.html 
+vim app/templates/instructions.html
+vim app/templates/printers.html 
+vim app/templates/instructions.html 
+vim app/templates/room.html 
+vim app/templates/printers.html 
+cd app/templates/
+ls
+cat room.html 
+cat school.html 
+cat room.html 
+cat printers.html 
+vim printers.html 
+cd ..
+vim
+cd
+cd .vim/bundle/Vundle.vim/
+ls
+cd ..
+rm Vundle.vim/ -rf
+cd
+cd .vim/bundle/
+git clone https://github.com/gmarik/ vundle.git
+ls
+git clone https://github.com/gmarik/vundle.git
+ls
+lynx http://www.integralist.co.uk/posts/a-guide-to-getting-started-with-vim/
+w3m http://www.integralist.co.uk/posts/a-guide-to-getting-started-with-vim/
+cd
+vim .vimrc
+clear
+cd Development/printersite/
+ls
+sudo apt-get install anki 
+cd /etc/
+cat passwd
+cat shadow
+sudo cat shadow
+clear
+cat /etc/host
+cat /etc/hosts
+host google.com
+cd
+ls
+ip addr show
+ping google.com -c
+ping google.com -c 5
+nmap
+sudo apt-get install nmap
+curl www.google.com
+sudo apt-get install curl
+curl http://www.google.com
+ls
+mkdir Desktop
+ls
+cd .config/
+ls
+ls -a
+file user-dirs.
+file user-dirs.dirs 
+vim user-dirs.dirs 
+cd Development/printersite/
+source bin/activate
+run.py
+./run.py 
+source bin/activate
+./run.py 
+hlfhhjlhh
+source bin/activate
+./run.py 
+ls
+source bin/activate
+./run.py 
+cd Development/printersite/
+vim app/static/stylesheet.css
+cd app/static/stylesheet.css
+vim app/static/stylesheet.css
+sourve bin/activate
+source bin/activate
+./run.py 
+cd Development/
+ls
+cd printersite/
+ls
+vim
+unzip app/static/
+unzip app/static/seamless_paper_texture.zip 
+cd app/static/
+ls
+cd ap
+cd ../..
+ls
+ll
+ll -t
+cd __MACOSX/
+ls
+cd ..
+rm -rf __MACOSX/
+ls
+mv seamless_paper_texture/ app/static/
+cd app/static/
+ls
+rm seamless_paper_texture
+rm seamless_paper_texture.zip 
+cd seamless_paper_texture/
+ls
+cd ..
+ls
+mv seamless_paper_texture/seamless_paper_texture.png background.png
+ls
+rm -rf seamless_paper_texture/
+ls
+rm stylesheet.css 
+clear
+cd ..
+vim
+cd
+gksu gedit /etc/pm/sleep.d/20_custom-ehci_hcd 
+sudo apt-get install gksu
+gksu gedit /etc/pm/sleep.d/20_custom-ehci_hcd 
+sudo nano  /etc/pm/sleep.d/20_custom-ehci_hcd 
+sudo chmod 755 /etc/pm/sleep.d/20_custom-ehci_hcd
+cd Development/printersite/
+source bin/activate
+./run.py 
+cd Development/printersite/
+vim
+cd
+vim .vimrc
+vim
+cd Development/printersite/
+vim
+cd ..
+mkdir python
+cd python/
+vim example25.py
+vim diceroller.py
+ls
+git clone https://github.com/fogleman/Minecraft.git
+cd Minecraft/
+ls
+python main.py 
+cd ..
+rm -rf Minecraft/
+ls
+virtualenv minecraft
+cd minecraft/
+ls
+pip install pyglet
+ls
+pip remove pyglet
+pip uninstall pyglet
+source bin/activate
+pip install pyglet
+git clone https://github.com/fogleman/Minecraft.git
+cd Minecraft/
+ls
+python main.py 
+vim main.py 
+deactivate 
+cd
+ssh root@162.243.7.39
+ls
+cd Development/printersite/
+vim
+cd ../python/
+python example25.py 
+clear
+python example25.py 
+python
+python diceroller.py 
+ls
+cd /
+find pyglet
+find -name "pyglet"
+sudo find -iname "pyglet"
+ls
+cd ~/Development/printersite/
+git status
+git add -A
+git commit -m "Added Instruction landing page"
+git push origin master 
+ssh app@162.243.7.39
+ls
+cat /usr/share/dict
+cat /usr/share/dict/american-english 
+grep "?x*n?" /usr/share/dict/american-english 
+grep -i "?x*n?" /usr/share/dict/american-english 
+man grep
+man grep | grep "-i"
+man grep | grep -i
+grep -i "zygotes" /usr/share/dict/american-english 
+grep -i "z*" /usr/share/dict/american-english 
+grep -i "?z?" /usr/share/dict/american-english 
+grep -i "??z?" /usr/share/dict/american-english 
+grep -i "jazz" /usr/share/dict/american-english 
+man grep
+grep -e "jazz" /usr/share/dict/american-english 
+grep -e "?azz" /usr/share/dict/american-english 
+grep -e "\?azz" /usr/share/dict/american-english 
+grep -e "*azz" /usr/share/dict/american-english 
+grep -e ".azz" /usr/share/dict/american-english 
+grep -e ".x*n." /usr/share/dict/american-english 
+jrnl -10
+cal
+jrnl --edit
+jrnl -10
+jrnl yesterday: Android Tutorial and Linux Edx. Today i worked on the Sunshine android app and continued the Linux Edx course. Learned about security and networking. Learned about subnetting and IP address classes. This stuff is pretty interesting. From now on I want to focus on Python and Android, and see where that takes me. I've already learned how to touch type, which is pretty cool seeing how it was a goal of mine earlier this year. Practice pays off!
+
+
+
+jrnl yesterday: Android Tutorial and Linux Edx. Today i worked on the Sunshine android app and continued the Linux Edx course. Learned about security and networking. Learned about subnetting and IP address classes. This stuff is pretty interesting. From now on I want to focus on Python and Android. I've already learned how to touch type, which is pretty cool seeing how it was a goal of mine earlier this year. Practice pays off!
+
+
+
+jrnl yesterday: Android Tutorial and Linux Edx. Today i worked on the Sunshine android app and continued the Linux Edx course. Learned about security and networking, subnetting and IP address classes. This stuff is pretty interesting. From now on I want to focus on Python and Android. I've already learned how to touch type, which is pretty cool seeing how it was a goal of mine earlier this year. Practice pays off!
+jrnl -10
+jrnl --edit
+jrnl -10
+cal
+jrnl: PrinterSite. Today I finally have a working prototype of the printer site. I'll email it to Damien later this week. Pretty proud of myself. Let there be more projects to come. I want to start developing a resume for internship searching for next year, this will come in handy. Also contaced many friends today to keep in touch. Life's good.
+jrnl today: PrinterSite. Today I finally have a working prototype of the printer site. I'll email it to Damien later this week. Pretty proud of myself. Let there be more projects to come. I want to start developing a resume for internship searching for next year, this will come in handy. Also contaced many friends today to keep in touch. Life's good.
+jrnl -10

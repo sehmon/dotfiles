@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="language-level">
-      <project id="Sunshine" values="JDK_1_6" />
-    </group>
     <group name="run-configuration-type">
       <project id="Sunshine" values="AndroidRunConfigurationType" />
+    </group>
+    <group name="language-level">
+      <project id="Sunshine" values="JDK_1_6" />
     </group>
     <group name="module type">
       <project id="Sunshine" values="JAVA_MODULE" />
     </group>
     <group name="frameworks">
-      <project id="Sunshine" values="android-gradle,java-gradle,android" />
+      <project id="Sunshine" values="java-gradle,android-gradle,android" />
     </group>
     <group name="file-type">
-      <project id="Sunshine" values="PLAIN_TEXT,UNKNOWN,Groovy,IDEA_MODULE,Properties,XML,JAVA,Images,ProGuard File,ARCHIVE" />
+      <project id="Sunshine" values="IDEA_MODULE,PLAIN_TEXT,JAVA,XML,ProGuard File,Groovy,ARCHIVE,Images,UNKNOWN,Properties" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="6" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="15" />
       <entry feature="ide.settings.Appearance" count="2" />
       <entry feature="ide.settings.Genymotion" count="1" />
     </counts>
