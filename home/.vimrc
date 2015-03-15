@@ -16,23 +16,6 @@ let mapleader = "\<Space>"
 " This sets (Space+W) to save a file
 nnoremap <Leader>w :w<CR>
 
-"---------------------------------------"
-" *Plugins* "
-
-"'gcc' comments/uncomments lines"
-Plugin 'tomtom/tcomment_vim'
-
-"Ctrl+p fuzzy file searching"
-Plugin 'kien/ctrlp.vim'
-
-"Tab Completion"
-Plugin 'ervandew/supertab'
-
-"Quick HTML editing
-Plugin 'mattn/emmet-vim'
-
-"---------------------------------------"
-
 "Line Numbering on"
 set nu
 
@@ -53,3 +36,52 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"Syntax Highlighting
+syntax on
+
+"More Undos
+set undolevels=1000
+
+"Tells VIM that Terminator uses 256 colors
+set t_Co=256
+
+" Sets Color Scheme
+syntax enable
+set background=dark
+colorscheme solarized 
+
+" Used for Vim-Notes
+let g:notes_directories = ['~/Notes']
+
+"---------------------------------------"
+" *Plugins* "
+"
+" Used for Vim Markdown"
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
+" Imitates writeroom
+Bundle 'mikewest/vimroom'
+
+"'gcc' comments/uncomments lines"
+Plugin 'tomtom/tcomment_vim'
+
+" Vim color scheme plugin
+Plugin 'flazz/vim-colorschemes'
+
+" Solarized theme
+Bundle 'altercation/vim-colors-solarized'
+
+"Ctrl+p fuzzy file searching"
+Plugin 'kien/ctrlp.vim'
+
+"Quick HTML editing
+Plugin 'mattn/emmet-vim'
+
+"Writeroom distraction-free writing
+Plugin 'junegunn/goyo.vim'
+
+"Used for Vim-Notes
+Plugin 'xolox/vim-notes'
+Plugin 'vim-misc'
